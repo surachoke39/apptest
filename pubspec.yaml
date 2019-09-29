@@ -1,4 +1,4 @@
-name: apptest
+name: firebase_demo
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -19,6 +19,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^0.4.0+1
+  firebase_analytics: ^4.0.2
+  cloud_firestore: ^0.12.9+4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
